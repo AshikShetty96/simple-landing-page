@@ -1,0 +1,202 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #add9ef;
+    font-size: 18px; /* Increase base font size */
+    box-sizing: border-box; /* Apply the box model */
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 36px; /* Increase font size for main header */
+    color: #333; /* Main header color */
+    background-color: #d7d3d2; /* Background color for header */
+    padding: 10px 70px;
+    display: inline-block;
+    border: 2px solid #333; /* Border around the header */
+    border-radius: 8px; /* Rounded corners */
+    position: relative;
+}
+
+
+
+/* Iframe */
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 20px; /* Increase font size for list items */
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #19b17e;
+    font-size: 20px; /* Increase font size for links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.section {
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+.udupi-section {
+    background-color: #54b7f4; /* Light blue */
+}
+
+.mangalore-section {
+    background-color: #e2ec95; /* Light yellow */
+}
+
+/* Center align content in sections */
+.temples-section,
+.beaches-section,
+.nature-parks-section,
+.historical-sites-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Flexbox for responsive layout */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    flex: 1 1 45%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .flex-item {
+        flex: 1 1 100%;
+    }
+}
+
+/* Overflow */
+.overflow-auto {
+    overflow: auto;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+/* Height/Width */
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.auto-width {
+    width: auto;
+}
+
+.auto-height {
+    height: auto;
+}
+
+/* Box Model */
+.box {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+/* Headings */
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px; /* Increase font size for subheadings */
+    color: #ff6347; /* Subheading color */
+}
+
+/* Varied colors for headings */
+.udupi-section h1 {
+    color: #2e8b57; /* Sea green */
+}
+
+.mangalore-section h1 {
+    color: #8b0000; /* Dark red */
+}
+
+.temples-section h2 {
+    color: #ff4500; /* Orange red */
+}
+
+.beaches-section h2 {
+    color: #1e90ff; /* Dodger blue */
+}
+
+.nature-parks-section h2 {
+    color: #32cd32; /* Lime green */
+}
+
+.historical-sites-section h2 {
+    color: #8a2be2; /* Blue violet */
+}
+
+/* Additional color variety */
+.temples-section a {
+    color: #ff4500; /* Orange red */
+}
+
+.beaches-section a {
+    color: #1e90ff; /* Dodger blue */
+}
+
+.nature-parks-section a {
+    color: #32cd32; /* Lime green */
+}
+
+.historical-sites-section a {
+    color: #8a2be2; /* Blue violet */
+}
+
+/* Style images */
+.section-image {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
